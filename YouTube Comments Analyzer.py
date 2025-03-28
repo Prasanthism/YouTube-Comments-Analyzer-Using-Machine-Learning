@@ -121,8 +121,8 @@ class SentimentAnalysisVisualizer:
         plt.show()
 
 if __name__ == '__main__':
-    api_key = "AIzaSyB3au_OC62KowuP2DSFT0fAmKa3BTE7Ipw"
-    video_id = "uDg78JwQltY"                   
+    api_key = "API key"
+    video_id = "video id"                   
 
     youtube_analysis = YouTubeSentimentAnalysis(api_key)
     comments, sentiment_scores = youtube_analysis.analyze_sentiments(video_id)
